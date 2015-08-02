@@ -51,5 +51,8 @@ $ mv base.protecter.rdb protecter.rdb
 
 **注意！若資料夾權限不設定成網頁伺服器可讀取的狀態（例如擁有者及擁有者群組為www-data），程式將無法正常運作！**
 
+##示範
+如想觀看示範，可前往以下網址：http://protecter.sardo.work
+
 ##回報問題
 如遇任何問題，歡迎在Issues進行回報。
