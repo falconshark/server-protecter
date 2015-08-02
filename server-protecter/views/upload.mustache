@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>伺服器守護神－管理後台</title>
+		<link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/buttons.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 class="title xingothic-tc-w8">新增守護神</h1>
+		<div class="center">
+			<a href="delete.php" class="button">切換至刪除守護神</a>
+		</div>
+		<br><br>
+		<div id="Main">
+			<form method="POST" class="center" id="protecter" enctype="multipart/form-data">
+				<p>
+					<label for="name" class="text">守護神名稱：</label>
+					<input type="text" name="name">
+					<br><br><br>
+					<label for="picture" class="text">守護神圖片：</label>
+					<input type="file" name="picture" id="picture">
+					<br><br><br>
+					<label for="intro" class="text">守護神介紹：</label>
+					<textarea name="intro" form="protecter"></textarea>
+				</p>
+				<br><br>
+				<p class="center">
+					<button type="submit" class="button">新增守護神</button>
+				</p>
+			</form>
+		</div>
+		<br>
+		<div id="Footer"><p>&copy; 2015 Mr.Twister<p></div>
+	</body>
+	<script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-34580.js"></script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>伺服器守護神－管理後台</title>
+		<link href="./css/custom.css" rel="stylesheet" type="text/css"/>
+		<link href="./css/buttons.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 class="title xingothic-tc-w8">刪除守護神</h1>
+		<div class="center">
+			<a href="upload.php" class="button">切換至新增守護神</a>
+		</div>
+		<br><br>
+		<div id="Main">
+			<div class="table">
+				<table >
+					<tr>
+						<td>
+							守護神名稱
+						</td>
+						<td >
+							刪除
+						</td>
+					</tr>
+					{{#protecter}}
+					<tr>
+						<td >
+							{{name}}
+						</td>
+						<td>
+							<a href="processdelete.php?id={{id}}" class="button">刪除</a>
+						</td>
+					</tr>
+					{{/protecter}}
+				</tr>
+			</table>
+		</div>
+	</div>
+	<br>
+	<div id="Footer"><p>&copy; 2015 Mr.Twister<p></div>
+</body>
+<script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-34580.js"></script>
+</html>

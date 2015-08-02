@@ -1,0 +1,6 @@
+{
+    "require": {
+        "lichtner/fluentpdo": "1.0.0",
+        "mustache/mustache":"2.8.0"
+    }
+}
